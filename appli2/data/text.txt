@@ -1,0 +1,9 @@
+NbCuve	3
+Cuve	H	250	0.0	250	100
+Cuve	B	750	0.0	450	400
+Cuve	H	950	0.0	650	100
+Structure	LST
+A	C:5	
+B	
+C	A:5	
+
