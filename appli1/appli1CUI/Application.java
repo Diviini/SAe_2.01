@@ -552,7 +552,7 @@ public class Application
 	public ArrayList<Tube> getAlTubes() { return this.alTube;         }
 	public int    getNbCuve()           { return this.alCuve.size();  }
 
-	public static void main( String[] args ) 
+	public static void main(String[] args) 
 	{
 		new Application().lancerProgramme();
 	}

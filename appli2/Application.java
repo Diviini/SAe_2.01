@@ -14,14 +14,14 @@ public class Application
 	/* Variables  */
 	/*------------*/
 
-	private Controleur ctrl;
+	private Controleur2 ctrl;
 	private ArrayList<Tube> alTube;
 	private ArrayList<Cuve> alCuve;
 	private int [][]   matrice;
 
 	private HashMap<Cuve, Float> tmpCout = new HashMap<>();
 
-	public Application( Controleur ctrl  ) 
+	public Application( Controleur2 ctrl  ) 
 	{ 
 		this.ctrl = ctrl;
 		this.alCuve  = new ArrayList<>();

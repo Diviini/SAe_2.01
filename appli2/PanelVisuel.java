@@ -3,11 +3,11 @@ import java.awt.*;
 
 public class PanelVisuel extends JPanel
 {
-	private Controleur ctrl;
+	private Controleur2 ctrl;
 	private JPanel panelInfo;
 	private JButton btnValider;
 
-	public PanelVisuel( Controleur   ctrl )
+	public PanelVisuel( Controleur2   ctrl )
 	{
 		this.ctrl = ctrl;
 		this.panelInfo    = new JPanel();

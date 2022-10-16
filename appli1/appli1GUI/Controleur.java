@@ -3,13 +3,13 @@ import java.util.ArrayList;
 public class Controleur 
 {
 	private FramePrincipale  ihm;
-	private Application metier;
+	private Application1GUI metier;
 
 
 	public Controleur ()
 	{
 		this.ihm    = new FramePrincipale ( this );
-		this.metier = new Application();
+		this.metier = new Application1GUI();
 	}
 
 	public Cuve creerCuve(int capacite, int posX, int posY, char posInfo)

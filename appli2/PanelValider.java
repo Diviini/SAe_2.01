@@ -6,9 +6,9 @@ import java.awt.event.*;
 public class PanelValider extends JPanel implements ActionListener 
 {
     private JButton btnValider;
-    private Controleur ctrl;
+    private Controleur2 ctrl;
 
-    public PanelValider(Controleur ctrl)
+    public PanelValider(Controleur2 ctrl)
     {
         this.setLocation(50, 50);
         this.setSize(250,250);

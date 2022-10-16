@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.io.File       ;
 import java.util.ArrayList;
 
-public class Application 
+public class Application1GUI
 {
 	final int NB_CUVE_MAX = 26 ;
 	final int NB_TUBE_MAX = 325; // car le nombre de tube maximum possible avec 26 cuve est est égal 325
@@ -24,7 +24,7 @@ public class Application
 
 	private String structure;
 
-	public Application() 
+	public Application1GUI() 
 	{
 
 		// this.matrice = null;				
@@ -231,6 +231,6 @@ public class Application
 
 	public static void main( String[] args ) 
 	{
-		new Application();
+		new Application1GUI();
 	}
 }

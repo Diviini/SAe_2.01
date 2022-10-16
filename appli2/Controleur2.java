@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Controleur 
+public class Controleur2
 {
 	private FrameReseau   ihm;
 	private Application metier;
 
-	public Controleur ()
+	public Controleur2 ()
 	{
 		this.metier = new Application( this );
 		this.ihm    = new FrameReseau  ( this );
@@ -20,6 +20,6 @@ public class Controleur
 
 	public static void main( String[] a ) 	
 	{
-		new Controleur(); 
+		new Controleur2(); 
 	}
 }

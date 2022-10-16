@@ -2,7 +2,6 @@ import java.awt.*;
 import javax.swing.*;
 
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class FrameMatrice extends JFrame 
