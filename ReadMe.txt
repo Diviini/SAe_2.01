@@ -7,3 +7,4 @@ L'application 2 permet de visualiser
 
 Il n'y rien à changer pour le text.txt,
 L'application 1 génère directement le fichier.txt dans le dossier data de l'application 2.
+Le lancement directement à partir de vscode ne fonctionne pas correctement. Veuillez lancer les applications via javac et java dans un terminal.
